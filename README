@@ -1,0 +1,24 @@
+MiniHTML is a simple HTML/CSS renderer.
+This project was created as an example of how do render HTML and CSS within flash. It only has a basic set of features and was setup so that it will be easy to add onto or change to facilitate the functionality you might need. 
+
+The most basic example would look something like this.
+var document:HTML = new HTML( stage.stageWidth, stage.stageHeight );
+document.styleSheet = 'div{ width:90%; } #idStyle{ height:90%; } .classStyle{ background:#FF0; }';
+document.innerHTML = '<html><div id="idStyle" class="classStyle" alpha="0.5">Hello World!!!</div></html>'; 
+addChild( document );
+
+I've created a more complete example in Main.as in the src folder and created a fla to more simply compile this project. All of this code will work in Flex or any other environment if needed.
+
+As you can see in this small example above we have quite a few features, let me tell you more about these and other things that you can't really see in this example.
+-	Parsing of standard HTML and CSS in about 2.5K of code.
+-	Styles that cascade and override less president styles. This includes node styles, 
+	id styles, multiple class styles and any property that is defined on the node itself. 
+-	Introspection of what has been parsed using a getElementById() method just like JavaScript.
+-	Properties are converted to the correct type from its string value in HTML or CSS. 
+	This includes all colors including short hand 3 digit hex values, percentages, floats, 
+	booleans and strings.
+- 	Liquid layouts that flow based on the size of the elements and assisted by the resize method.
+-	The engine parses divs and text elements and code is included for img, titles tags along with
+	information on how to simply extend the parsers ability.
+
+This is called MiniHTML because I have been working on a much larger version of a standards based HTML and CSS parser for a long time. I can't release it until a few more things are finished but while doing some other stuff I ended up creating this. For many cases this might be all you need but the larger version that I am creating will be far more standards compliant and contain many other features that are not as simple to put together. If you are interested, shoot me an email, it is always good to hear that people are looking forward to what I am working on. 
