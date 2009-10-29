@@ -1,0 +1,108 @@
+h1 {
+	font-family:Impact; 
+	font-size:92px;
+	color: #019A9A;
+}
+h2 {
+	font-family:Georgia; 
+	font-size:24px;
+}
+p { 
+	font-family:Arial; 
+	font-size:12px; 
+}
+#body{
+	background:#FFF;
+	width:97%; 
+	height:100%;
+	x:15px;
+	y:15px;
+}
+#header {
+	background:#EAEAEA; 
+	width:100%; 
+	height:115px; 
+} 
+#logo{
+	background:#EAEAEA; 
+	width:200px; 
+	height:115px;
+	x:13px;
+}
+#nav { 
+	background:#EAEAEA;
+	width:480px; 
+	height:30px; 
+	x:15px;
+	y:85px;
+} 
+.nav-button {
+	background:#999;
+	width:110px;
+	height:30px;
+	x:10px;
+} 
+#nav-button-selected {
+	background:#666;
+}
+#header-bottom {
+	background:#666; 
+	width:100%; 
+	height:15px;
+	y:2px;
+}
+#left{ 
+	background:#D5EEEE; 
+	width:65%;
+	height:100%;
+}
+#right{ 
+	background:#999; 
+	width:35%;
+	height:100%;
+}
+.article { 
+	background:#FFF; 
+	width:95%; 
+	height:170px;
+	x:14; 
+	y:14;
+}
+.img-border {
+	background:#333; 
+	width:200px; 
+	height:145px;
+	x:14; 
+	y:14;
+}
+.img {
+	background:#CCC; 
+	width:87%; 
+	height:80%;
+	x:14; 
+	y:14;
+}
+.article-content {
+	background:#FFF; 
+	width:54%; 
+	height:145px;
+	x:14;
+	y:14;
+}
+.article-headline{
+	background:#FFF; 
+	width:100%; 
+	height:30px;
+}
+.article-body{
+	background:#FFF; 
+	width:100%; 
+	height:120px;
+}
+.flow {
+	background:#FFF; 
+	width:30px; 
+	height:30px; 
+	x:13; 
+	y:13;
+}
